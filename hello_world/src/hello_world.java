@@ -2,13 +2,15 @@ import com.sun.source.util.SourcePositions;
 
 public class hello_world {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int a = 10;
         int b = 20;
         int c = 30;
+        boolean bln = true;
         System.out.println("hello world");
         System.out.println(a + b - c);
-    }
-0
+        System.out.println(bln);
 
+
+    }
 }
