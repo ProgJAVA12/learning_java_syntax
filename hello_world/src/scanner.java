@@ -16,6 +16,7 @@ public class scanner {
                 name = console.nextLine();
                 System.out.println("Спасибо, " + name.toUpperCase() + "\n" + "Пожалуйста укажите возраст: ");
                 break;
+
             }
         }
         while (true) {
@@ -32,7 +33,7 @@ public class scanner {
 
 
         }
-
+        console.close();
         }
 
 
